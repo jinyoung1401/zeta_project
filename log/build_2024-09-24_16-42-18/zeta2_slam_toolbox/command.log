@@ -1,0 +1,4 @@
+Invoking command in '/home/jinyoung/zeta_ws/build/zeta2_slam_toolbox': /usr/bin/cmake --build /home/jinyoung/zeta_ws/build/zeta2_slam_toolbox -- -j16 -l16
+Invoked command in '/home/jinyoung/zeta_ws/build/zeta2_slam_toolbox' returned '0': /usr/bin/cmake --build /home/jinyoung/zeta_ws/build/zeta2_slam_toolbox -- -j16 -l16
+Invoking command in '/home/jinyoung/zeta_ws/build/zeta2_slam_toolbox': /usr/bin/cmake --install /home/jinyoung/zeta_ws/build/zeta2_slam_toolbox
+Invoked command in '/home/jinyoung/zeta_ws/build/zeta2_slam_toolbox' returned '0': /usr/bin/cmake --install /home/jinyoung/zeta_ws/build/zeta2_slam_toolbox

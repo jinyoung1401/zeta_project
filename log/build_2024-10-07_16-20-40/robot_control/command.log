@@ -1,0 +1,2 @@
+Invoking command in '/home/jinyoung/zeta_ws/build/robot_control': /usr/bin/cmake /home/jinyoung/zeta_ws/flutter_ws/robot_control/windows -DCMAKE_INSTALL_PREFIX=/home/jinyoung/zeta_ws/install/robot_control
+Invoked command in '/home/jinyoung/zeta_ws/build/robot_control' returned '1': /usr/bin/cmake /home/jinyoung/zeta_ws/flutter_ws/robot_control/windows -DCMAKE_INSTALL_PREFIX=/home/jinyoung/zeta_ws/install/robot_control

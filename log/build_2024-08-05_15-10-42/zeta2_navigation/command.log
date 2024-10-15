@@ -1,0 +1,6 @@
+Invoking command in '/home/jinyoung/zeta_ws/build/zeta2_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jinyoung/zeta_ws/src/zeta2_edu_autonomous/zeta2_navigation -DCMAKE_INSTALL_PREFIX=/home/jinyoung/zeta_ws/install/zeta2_navigation
+Invoked command in '/home/jinyoung/zeta_ws/build/zeta2_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jinyoung/zeta_ws/src/zeta2_edu_autonomous/zeta2_navigation -DCMAKE_INSTALL_PREFIX=/home/jinyoung/zeta_ws/install/zeta2_navigation
+Invoking command in '/home/jinyoung/zeta_ws/build/zeta2_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jinyoung/zeta_ws/build/zeta2_navigation -- -j16 -l16
+Invoked command in '/home/jinyoung/zeta_ws/build/zeta2_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jinyoung/zeta_ws/build/zeta2_navigation -- -j16 -l16
+Invoking command in '/home/jinyoung/zeta_ws/build/zeta2_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jinyoung/zeta_ws/build/zeta2_navigation
+Invoked command in '/home/jinyoung/zeta_ws/build/zeta2_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jinyoung/zeta_ws/build/zeta2_navigation

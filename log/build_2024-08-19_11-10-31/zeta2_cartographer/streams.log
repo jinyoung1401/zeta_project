@@ -1,0 +1,6 @@
+[0.015s] Invoking command in '/home/jinyoung/humble_ws/zeta_ws/build/zeta2_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jinyoung/humble_ws/zeta_ws/build/zeta2_cartographer -- -j16 -l16
+[0.171s] [0mCMake Error: The current CMakeCache.txt directory /home/jinyoung/humble_ws/zeta_ws/build/zeta2_cartographer/CMakeCache.txt is different than the directory /home/jinyoung/zeta_ws/build/zeta2_cartographer where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.171s] [0mCMake Error: The source directory "/home/jinyoung/zeta_ws/src/zeta2_edu_autonomous/zeta2_cartographer" does not exist.
+[0.171s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.171s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.173s] Invoked command in '/home/jinyoung/humble_ws/zeta_ws/build/zeta2_cartographer' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jinyoung/humble_ws/zeta_ws/build/zeta2_cartographer -- -j16 -l16

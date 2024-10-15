@@ -1,0 +1,26 @@
+[0.016s] Invoking command in '/home/jinyoung/zeta_ws/build/runner': /usr/bin/cmake /home/jinyoung/zeta_ws/flutter_ws/robot_control/linux -DCMAKE_INSTALL_PREFIX=/home/jinyoung/zeta_ws/install/runner
+[0.188s] -- The CXX compiler identification is GNU 11.4.0
+[0.188s] -- Detecting CXX compiler ABI info
+[0.189s] -- Detecting CXX compiler ABI info - done
+[0.189s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.190s] -- Detecting CXX compile features
+[0.190s] -- Detecting CXX compile features - done
+[0.190s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.190s] -- Checking for module 'gtk+-3.0'
+[0.190s] --   No package 'gtk+-3.0' found
+[0.190s] -- Configuring incomplete, errors occurred!
+[0.191s] See also "/home/jinyoung/zeta_ws/build/runner/CMakeFiles/CMakeOutput.log".
+[0.193s] [31mCMake Error at flutter/CMakeLists.txt:7 (include):
+[0.194s]   include could not find requested file:
+[0.194s] 
+[0.194s]     /home/jinyoung/zeta_ws/flutter_ws/robot_control/linux/flutter/ephemeral/generated_config.cmake
+[0.194s] 
+[0.194s] [0m
+[0.194s] [31mCMake Error at /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:603 (message):
+[0.194s]   A required package was not found
+[0.194s] Call Stack (most recent call first):
+[0.194s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:825 (_pkg_check_modules_internal)
+[0.194s]   flutter/CMakeLists.txt:25 (pkg_check_modules)
+[0.194s] 
+[0.195s] [0m
+[0.196s] Invoked command in '/home/jinyoung/zeta_ws/build/runner' returned '1': /usr/bin/cmake /home/jinyoung/zeta_ws/flutter_ws/robot_control/linux -DCMAKE_INSTALL_PREFIX=/home/jinyoung/zeta_ws/install/runner

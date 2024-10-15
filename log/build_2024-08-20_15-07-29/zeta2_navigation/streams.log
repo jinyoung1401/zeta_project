@@ -1,0 +1,79 @@
+[0.012s] Invoking command in '/home/jinyoung/zeta_ws/build/zeta2_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jinyoung/zeta_ws/build/zeta2_navigation -- -j16 -l16
+[0.171s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.171s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.171s] -- Found nav2_smac_planner: 1.1.15 (/opt/ros/humble/share/nav2_smac_planner/cmake)
+[0.171s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.174s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.183s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.197s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.218s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.265s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.267s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.288s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.296s] -- Looking for pthread.h
+[0.367s] -- Looking for pthread.h - found
+[0.367s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.426s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.427s] -- Found Threads: TRUE  
+[0.657s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.658s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.658s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.772s] -- Found nav2_theta_star_planner: 1.1.15 (/opt/ros/humble/share/nav2_theta_star_planner/cmake)
+[0.787s] -- Found nav2_rotation_shim_controller: 1.1.15 (/opt/ros/humble/share/nav2_rotation_shim_controller/cmake)
+[0.800s] -- Found nav2_graceful_controller: 1.1.15 (/opt/ros/humble/share/nav2_graceful_controller/cmake)
+[0.877s] -- Configuring done
+[0.880s] -- Generating done
+[0.881s] -- Build files have been written to: /home/jinyoung/zeta_ws/build/zeta2_navigation
+[0.898s] Invoked command in '/home/jinyoung/zeta_ws/build/zeta2_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jinyoung/zeta_ws/build/zeta2_navigation -- -j16 -l16
+[0.914s] Invoking command in '/home/jinyoung/zeta_ws/build/zeta2_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jinyoung/zeta_ws/build/zeta2_navigation
+[0.921s] -- Install configuration: ""
+[0.921s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/params
+[0.921s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/params/zeta_smac_2d.yaml
+[0.921s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/params/zeta_rotation_shim.yaml
+[0.921s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/params/zeta_mppi.yaml
+[0.921s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/params/zeta_theta.yaml
+[0.921s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/params/zeta_graceful.yaml
+[0.921s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/params/zeta_smoother.yaml
+[0.921s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/params/zeta_regulated_pp.yaml
+[0.921s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/params/zeta_nomal.yaml
+[0.921s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/launch
+[0.921s] -- Installing: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/launch/zeta2_navigation_theta.launch.py
+[0.921s] -- Installing: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/launch/zeta2_navigation_graceful.launch.py
+[0.921s] -- Installing: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/launch/zeta2_navigation_rotation_shim.launch.py
+[0.921s] -- Installing: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/launch/zeta2_navigation_smoother.py
+[0.921s] -- Installing: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/launch/zeta2_navigation_mppi.launch.py
+[0.921s] -- Installing: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/launch/zeta2_navigation_regulated_pp.launch.py
+[0.921s] -- Installing: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/launch/zeta2_navigation_smac_2d.launch.py
+[0.921s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/launch/zeta2_navigation.launch.py
+[0.921s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/rviz
+[0.921s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/rviz/nav2.rviz
+[0.921s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/maps
+[0.921s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/maps/slam_toolbox_handong.pgm
+[0.921s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/maps/school
+[0.922s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/maps/school/slam_toolbox_handong.pgm
+[0.922s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/maps/school/slam_toolbox_handong3.yaml
+[0.922s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/maps/school/slam_toolbox_handong3.pgm
+[0.922s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/maps/school/slam_toolbox_handong.yaml
+[0.922s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/maps/cartographer
+[0.922s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/maps/cartographer/carto_seongsu.pgm
+[0.922s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/maps/cartographer/carto_seongsu.yaml
+[0.922s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/maps/slam_toolbox
+[0.922s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/maps/slam_toolbox/slam_toolbox_seongsu.yaml
+[0.922s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/maps/slam_toolbox/slam_toolbox_seongsu.pgm
+[0.922s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/maps/slam_toolbox_handong.yaml
+[0.922s] -- Installing: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/ament_index/resource_index/package_run_dependencies/zeta2_navigation
+[0.922s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/ament_index/resource_index/parent_prefix_path/zeta2_navigation
+[0.922s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/environment/ament_prefix_path.sh
+[0.922s] -- Installing: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/environment/ament_prefix_path.dsv
+[0.922s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/environment/path.sh
+[0.922s] -- Installing: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/environment/path.dsv
+[0.922s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/local_setup.bash
+[0.922s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/local_setup.sh
+[0.922s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/local_setup.zsh
+[0.922s] -- Installing: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/local_setup.dsv
+[0.922s] -- Installing: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/package.dsv
+[0.922s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/ament_index/resource_index/packages/zeta2_navigation
+[0.922s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/cmake/zeta2_navigationConfig.cmake
+[0.922s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/cmake/zeta2_navigationConfig-version.cmake
+[0.922s] -- Installing: /home/jinyoung/zeta_ws/install/zeta2_navigation/share/zeta2_navigation/package.xml
+[0.923s] Invoked command in '/home/jinyoung/zeta_ws/build/zeta2_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jinyoung/zeta_ws/build/zeta2_navigation

@@ -1,0 +1,1178 @@
+[0.082s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.082s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7445f8f43f40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7445f90f15d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7445f90f15d0>>, mixin_verb=('build',))
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.216s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jinyoung/zeta_ws'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control) by extension 'python_setup_py'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android) by extension 'python'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android) by extension 'python_setup_py'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app) by extension 'python'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app) by extension 'python_setup_py'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/debug) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/debug) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/debug) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/debug) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/debug) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/debug) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/debug) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/debug) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/debug) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/debug) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/debug) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/debug) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/debug) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/debug) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter/plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter/plugins) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter/plugins) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter/plugins) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter/plugins) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter/plugins) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter/plugins) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter/plugins) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter/plugins) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter/plugins) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter/plugins) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter/plugins) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter/plugins) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/java/io/flutter/plugins) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example/robot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example/robot_control) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example/robot_control) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example/robot_control) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example/robot_control) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example/robot_control) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example/robot_control) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example/robot_control) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example/robot_control) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example/robot_control) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example/robot_control) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example/robot_control) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example/robot_control) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/kotlin/com/example/robot_control) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable-v21) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable-v21) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable-v21) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable-v21) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable-v21) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable-v21) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable-v21) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable-v21) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable-v21) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable-v21) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable-v21) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable-v21) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable-v21) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/drawable-v21) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-hdpi) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-hdpi) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-hdpi) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-hdpi) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-hdpi) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-hdpi) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-hdpi) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-hdpi) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-hdpi) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-hdpi) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-hdpi) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-hdpi) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-hdpi) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-hdpi) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-mdpi) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-mdpi) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-mdpi) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-mdpi) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-mdpi) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-mdpi) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-mdpi) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-mdpi) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-mdpi) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-mdpi) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-mdpi) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-mdpi) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-mdpi) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-mdpi) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xhdpi) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xhdpi) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xhdpi) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xhdpi) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xhdpi) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xhdpi) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xhdpi) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xhdpi) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xhdpi) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xhdpi) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xhdpi) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xhdpi) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xhdpi) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xhdpi) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxhdpi) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxhdpi) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxhdpi) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxhdpi) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxhdpi) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxhdpi) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxhdpi) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxhdpi) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxhdpi) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxhdpi) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxhdpi) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxhdpi) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxhdpi) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxhdpi) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxxhdpi) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxxhdpi) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxxhdpi) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxxhdpi) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxxhdpi) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxxhdpi) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxxhdpi) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxxhdpi) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxxhdpi) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxxhdpi) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxxhdpi) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxxhdpi) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxxhdpi) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/mipmap-xxxhdpi) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values-night) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values-night) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values-night) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values-night) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values-night) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values-night) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values-night) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values-night) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values-night) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values-night) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values-night) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values-night) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values-night) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/main/res/values-night) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/profile) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/profile) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/profile) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/profile) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/profile) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/profile) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/profile) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/profile) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/profile) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/profile) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/profile) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/profile) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/profile) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/app/src/profile) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle/wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle/wrapper) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle/wrapper) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle/wrapper) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle/wrapper) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle/wrapper) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle/wrapper) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle/wrapper) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle/wrapper) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle/wrapper) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle/wrapper) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle/wrapper) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle/wrapper) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/android/gradle/wrapper) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Flutter) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Flutter) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Flutter) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Flutter) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Flutter) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Flutter) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Flutter) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Flutter) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Flutter) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Flutter) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Flutter) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Flutter) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Flutter) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Flutter) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/AppIcon.appiconset) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/AppIcon.appiconset) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/AppIcon.appiconset) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/AppIcon.appiconset) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/AppIcon.appiconset) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/AppIcon.appiconset) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/AppIcon.appiconset) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/AppIcon.appiconset) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/AppIcon.appiconset) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/AppIcon.appiconset) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/AppIcon.appiconset) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/AppIcon.appiconset) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/AppIcon.appiconset) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/AppIcon.appiconset) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/LaunchImage.imageset) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/LaunchImage.imageset) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/LaunchImage.imageset) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/LaunchImage.imageset) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/LaunchImage.imageset) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/LaunchImage.imageset) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/LaunchImage.imageset) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/LaunchImage.imageset) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/LaunchImage.imageset) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/LaunchImage.imageset) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/LaunchImage.imageset) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/LaunchImage.imageset) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/LaunchImage.imageset) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Assets.xcassets/LaunchImage.imageset) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Base.lproj) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Base.lproj) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Base.lproj) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Base.lproj) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Base.lproj) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Base.lproj) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Base.lproj) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Base.lproj) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Base.lproj) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Base.lproj) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Base.lproj) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Base.lproj) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Base.lproj) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner/Base.lproj) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace) by extension 'ros'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace) by extensions ['cmake', 'python']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace) by extension 'cmake'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace) by extension 'python'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace) by extensions ['python_setup_py']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extension 'ros'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extensions ['cmake', 'python']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extension 'cmake'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extension 'python'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extensions ['python_setup_py']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata) by extension 'ros'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata) by extensions ['cmake', 'python']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata) by extension 'cmake'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata) by extension 'python'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata) by extensions ['python_setup_py']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata/xcschemes) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata/xcschemes) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata/xcschemes) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata/xcschemes) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata/xcschemes) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata/xcschemes) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata/xcschemes) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata/xcschemes) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata/xcschemes) by extension 'ros'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata/xcschemes) by extensions ['cmake', 'python']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata/xcschemes) by extension 'cmake'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata/xcschemes) by extension 'python'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata/xcschemes) by extensions ['python_setup_py']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcodeproj/xcshareddata/xcschemes) by extension 'python_setup_py'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace) by extension 'ros'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace) by extensions ['cmake', 'python']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace) by extension 'cmake'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace) by extension 'python'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace) by extensions ['python_setup_py']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace) by extension 'python_setup_py'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace/xcshareddata) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace/xcshareddata) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace/xcshareddata) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace/xcshareddata) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace/xcshareddata) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace/xcshareddata) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace/xcshareddata) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace/xcshareddata) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace/xcshareddata) by extension 'ros'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace/xcshareddata) by extensions ['cmake', 'python']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace/xcshareddata) by extension 'cmake'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace/xcshareddata) by extension 'python'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace/xcshareddata) by extensions ['python_setup_py']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/Runner.xcworkspace/xcshareddata) by extension 'python_setup_py'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/RunnerTests) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/RunnerTests) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/RunnerTests) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/RunnerTests) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/RunnerTests) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/RunnerTests) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/RunnerTests) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/RunnerTests) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/RunnerTests) by extension 'ros'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/RunnerTests) by extensions ['cmake', 'python']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/RunnerTests) by extension 'cmake'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/RunnerTests) by extension 'python'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/RunnerTests) by extensions ['python_setup_py']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/ios/RunnerTests) by extension 'python_setup_py'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/lib) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/lib) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/lib) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/lib) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/lib) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/lib) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/lib) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/lib) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/lib) by extension 'ros'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/lib) by extensions ['cmake', 'python']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/lib) by extension 'cmake'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/lib) by extension 'python'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/lib) by extensions ['python_setup_py']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/lib) by extension 'python_setup_py'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/linux) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/linux) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/linux) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/linux) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/linux) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/linux) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/linux) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/linux) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/linux) by extension 'ros'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/linux) by extensions ['cmake', 'python']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/linux) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/linux) by extension 'python'
+[0.238s] DEBUG:colcon.colcon_core.package_identification:Package 'flutter_ws/robot_control/linux' with type 'cmake' and name 'runner'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos) by extension 'cmake'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos) by extension 'python'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos) by extensions ['python_setup_py']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter) by extension 'cmake'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter) by extension 'python'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter) by extensions ['python_setup_py']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter/ephemeral) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter/ephemeral) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter/ephemeral) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter/ephemeral) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter/ephemeral) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter/ephemeral) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter/ephemeral) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter/ephemeral) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter/ephemeral) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter/ephemeral) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter/ephemeral) by extension 'cmake'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter/ephemeral) by extension 'python'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter/ephemeral) by extensions ['python_setup_py']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Flutter/ephemeral) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner) by extension 'cmake'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner) by extension 'python_setup_py'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets) by extensions ['cmake', 'python']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets) by extension 'python_setup_py'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets/AppIcon.appiconset) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets/AppIcon.appiconset) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets/AppIcon.appiconset) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets/AppIcon.appiconset) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets/AppIcon.appiconset) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets/AppIcon.appiconset) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets/AppIcon.appiconset) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets/AppIcon.appiconset) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets/AppIcon.appiconset) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets/AppIcon.appiconset) by extensions ['cmake', 'python']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets/AppIcon.appiconset) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets/AppIcon.appiconset) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets/AppIcon.appiconset) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Assets.xcassets/AppIcon.appiconset) by extension 'python_setup_py'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Base.lproj) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Base.lproj) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Base.lproj) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Base.lproj) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Base.lproj) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Base.lproj) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Base.lproj) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Base.lproj) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Base.lproj) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Base.lproj) by extensions ['cmake', 'python']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Base.lproj) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Base.lproj) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Base.lproj) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Base.lproj) by extension 'python_setup_py'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Configs) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Configs) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Configs) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Configs) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Configs) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Configs) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Configs) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Configs) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Configs) by extension 'ros'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Configs) by extensions ['cmake', 'python']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Configs) by extension 'cmake'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Configs) by extension 'python'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Configs) by extensions ['python_setup_py']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner/Configs) by extension 'python_setup_py'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj) by extension 'ros'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj) by extensions ['cmake', 'python']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj) by extension 'cmake'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj) by extension 'python'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj) by extensions ['python_setup_py']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj) by extension 'python_setup_py'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace) by extension 'ros'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace) by extensions ['cmake', 'python']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace) by extension 'cmake'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace) by extension 'python'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace) by extensions ['python_setup_py']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace) by extension 'python_setup_py'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extensions ['cmake', 'python']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extension 'cmake'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extension 'python'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extensions ['python_setup_py']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata) by extension 'python_setup_py'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata) by extensions ['cmake', 'python']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata) by extension 'cmake'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata) by extension 'python'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata) by extensions ['python_setup_py']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata) by extension 'python_setup_py'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata/xcschemes) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata/xcschemes) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata/xcschemes) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata/xcschemes) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata/xcschemes) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata/xcschemes) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata/xcschemes) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata/xcschemes) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata/xcschemes) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata/xcschemes) by extensions ['cmake', 'python']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata/xcschemes) by extension 'cmake'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata/xcschemes) by extension 'python'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata/xcschemes) by extensions ['python_setup_py']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcodeproj/xcshareddata/xcschemes) by extension 'python_setup_py'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace) by extensions ['cmake', 'python']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace) by extension 'python_setup_py'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace/xcshareddata) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace/xcshareddata) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace/xcshareddata) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace/xcshareddata) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace/xcshareddata) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace/xcshareddata) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace/xcshareddata) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace/xcshareddata) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace/xcshareddata) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace/xcshareddata) by extensions ['cmake', 'python']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace/xcshareddata) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace/xcshareddata) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace/xcshareddata) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/Runner.xcworkspace/xcshareddata) by extension 'python_setup_py'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/RunnerTests) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/RunnerTests) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/RunnerTests) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/RunnerTests) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/RunnerTests) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/RunnerTests) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/RunnerTests) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/RunnerTests) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/RunnerTests) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/RunnerTests) by extensions ['cmake', 'python']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/RunnerTests) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/RunnerTests) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/RunnerTests) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/macos/RunnerTests) by extension 'python_setup_py'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/test) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/test) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/test) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/test) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/test) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/test) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/test) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/test) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/test) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/test) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/test) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/test) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/test) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/test) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web/icons) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web/icons) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web/icons) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web/icons) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web/icons) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web/icons) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web/icons) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web/icons) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web/icons) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web/icons) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web/icons) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web/icons) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web/icons) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/web/icons) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/windows) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/windows) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/windows) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/windows) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/windows) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/windows) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/windows) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/windows) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/windows) by extension 'ros'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/windows) by extensions ['cmake', 'python']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/windows) by extension 'cmake'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(flutter_ws/robot_control/windows) by extension 'python'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'flutter_ws/robot_control/windows' with type 'cmake' and name 'robot_control'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/GUI) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/GUI) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/GUI) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/GUI) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/GUI) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/GUI) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/GUI) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/GUI) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/GUI) by extension 'ros'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/GUI) by extensions ['cmake', 'python']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/GUI) by extension 'cmake'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/GUI) by extension 'python'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/GUI) by extensions ['python_setup_py']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/GUI) by extension 'python_setup_py'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous) by extension 'ros'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous) by extensions ['cmake', 'python']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous) by extension 'cmake'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous) by extension 'python'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous) by extensions ['python_setup_py']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous) by extension 'python_setup_py'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/_photo) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/_photo) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/_photo) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/_photo) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/_photo) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/_photo) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/_photo) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/_photo) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/_photo) by extension 'ros'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/_photo) by extensions ['cmake', 'python']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/_photo) by extension 'cmake'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/_photo) by extension 'python'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/_photo) by extensions ['python_setup_py']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/_photo) by extension 'python_setup_py'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/scripts) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/scripts) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/scripts) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/scripts) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/scripts) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/scripts) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/scripts) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/scripts) by extension 'ros'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/scripts) by extensions ['cmake', 'python']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/scripts) by extension 'cmake'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/scripts) by extension 'python'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/scripts) by extensions ['python_setup_py']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/scripts) by extension 'python_setup_py'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_cartographer) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_cartographer) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_cartographer) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_cartographer) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_cartographer) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_cartographer) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_cartographer) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_cartographer) by extension 'ros'
+[0.249s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zeta2_edu_autonomous/zeta2_cartographer' with type 'ros.ament_cmake' and name 'zeta2_cartographer'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_navigation) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_navigation) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_navigation) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_navigation) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_navigation) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_navigation) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_navigation) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_navigation) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zeta2_edu_autonomous/zeta2_navigation' with type 'ros.ament_cmake' and name 'zeta2_navigation'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_simple_commander) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_simple_commander) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_simple_commander) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_simple_commander) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_simple_commander) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_simple_commander) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_simple_commander) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_simple_commander) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_simple_commander) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zeta2_edu_autonomous/zeta2_simple_commander' with type 'ros.ament_python' and name 'zeta2_simple_commander'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_slam_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_slam_toolbox) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_slam_toolbox) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_slam_toolbox) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_slam_toolbox) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_slam_toolbox) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_slam_toolbox) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_slam_toolbox) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/zeta2_edu_autonomous/zeta2_slam_toolbox) by extension 'ros'
+[0.251s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zeta2_edu_autonomous/zeta2_slam_toolbox' with type 'ros.ament_cmake' and name 'zeta2_slam_toolbox'
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.273s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/jinyoung/zeta_ws/install
+[0.273s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 412 installed packages in /opt/ros/humble
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.299s] DEBUG:colcon.colcon_core.verb:Building package 'robot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jinyoung/zeta_ws/build/robot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jinyoung/zeta_ws/install/robot_control', 'merge_install': False, 'path': '/home/jinyoung/zeta_ws/flutter_ws/robot_control/windows', 'symlink_install': False, 'test_result_base': None}
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'runner' build argument 'cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'runner' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'runner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'runner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'runner' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'runner' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'runner' build argument 'ament_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'runner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'runner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.300s] DEBUG:colcon.colcon_core.verb:Building package 'runner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jinyoung/zeta_ws/build/runner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jinyoung/zeta_ws/install/runner', 'merge_install': False, 'path': '/home/jinyoung/zeta_ws/flutter_ws/robot_control/linux', 'symlink_install': False, 'test_result_base': None}
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zeta2_cartographer' build argument 'cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zeta2_cartographer' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zeta2_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zeta2_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zeta2_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zeta2_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zeta2_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zeta2_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zeta2_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.300s] DEBUG:colcon.colcon_core.verb:Building package 'zeta2_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jinyoung/zeta_ws/build/zeta2_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jinyoung/zeta_ws/install/zeta2_cartographer', 'merge_install': False, 'path': '/home/jinyoung/zeta_ws/src/zeta2_edu_autonomous/zeta2_cartographer', 'symlink_install': False, 'test_result_base': None}
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zeta2_navigation' build argument 'cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zeta2_navigation' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zeta2_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zeta2_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zeta2_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zeta2_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zeta2_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zeta2_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'zeta2_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.300s] DEBUG:colcon.colcon_core.verb:Building package 'zeta2_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jinyoung/zeta_ws/build/zeta2_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jinyoung/zeta_ws/install/zeta2_navigation', 'merge_install': False, 'path': '/home/jinyoung/zeta_ws/src/zeta2_edu_autonomous/zeta2_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'zeta2_simple_commander' build argument 'cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'zeta2_simple_commander' build argument 'cmake_target' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'zeta2_simple_commander' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'zeta2_simple_commander' build argument 'cmake_clean_cache' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'zeta2_simple_commander' build argument 'cmake_clean_first' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'zeta2_simple_commander' build argument 'cmake_force_configure' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'zeta2_simple_commander' build argument 'ament_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'zeta2_simple_commander' build argument 'catkin_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'zeta2_simple_commander' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.301s] DEBUG:colcon.colcon_core.verb:Building package 'zeta2_simple_commander' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jinyoung/zeta_ws/build/zeta2_simple_commander', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jinyoung/zeta_ws/install/zeta2_simple_commander', 'merge_install': False, 'path': '/home/jinyoung/zeta_ws/src/zeta2_edu_autonomous/zeta2_simple_commander', 'symlink_install': False, 'test_result_base': None}
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'zeta2_slam_toolbox' build argument 'cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'zeta2_slam_toolbox' build argument 'cmake_target' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'zeta2_slam_toolbox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'zeta2_slam_toolbox' build argument 'cmake_clean_cache' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'zeta2_slam_toolbox' build argument 'cmake_clean_first' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'zeta2_slam_toolbox' build argument 'cmake_force_configure' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'zeta2_slam_toolbox' build argument 'ament_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'zeta2_slam_toolbox' build argument 'catkin_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'zeta2_slam_toolbox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.301s] DEBUG:colcon.colcon_core.verb:Building package 'zeta2_slam_toolbox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jinyoung/zeta_ws/build/zeta2_slam_toolbox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jinyoung/zeta_ws/install/zeta2_slam_toolbox', 'merge_install': False, 'path': '/home/jinyoung/zeta_ws/src/zeta2_edu_autonomous/zeta2_slam_toolbox', 'symlink_install': False, 'test_result_base': None}
+[0.301s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.302s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.302s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jinyoung/zeta_ws/flutter_ws/robot_control/windows'
+[0.304s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.304s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.304s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.306s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jinyoung/zeta_ws/flutter_ws/robot_control/linux'
+[0.307s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.307s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.308s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jinyoung/zeta_ws/src/zeta2_edu_autonomous/zeta2_cartographer' with build type 'ament_cmake'
+[0.309s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jinyoung/zeta_ws/src/zeta2_edu_autonomous/zeta2_cartographer'
+[0.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.309s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.311s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jinyoung/zeta_ws/src/zeta2_edu_autonomous/zeta2_navigation' with build type 'ament_cmake'
+[0.311s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jinyoung/zeta_ws/src/zeta2_edu_autonomous/zeta2_navigation'
+[0.311s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.311s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.313s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jinyoung/zeta_ws/src/zeta2_edu_autonomous/zeta2_simple_commander' with build type 'ament_python'
+[0.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('zeta2_simple_commander', 'ament_prefix_path')
+[0.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jinyoung/zeta_ws/install/zeta2_simple_commander/share/zeta2_simple_commander/hook/ament_prefix_path.ps1'
+[0.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jinyoung/zeta_ws/install/zeta2_simple_commander/share/zeta2_simple_commander/hook/ament_prefix_path.dsv'
+[0.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jinyoung/zeta_ws/install/zeta2_simple_commander/share/zeta2_simple_commander/hook/ament_prefix_path.sh'
+[0.315s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.315s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.317s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jinyoung/zeta_ws/src/zeta2_edu_autonomous/zeta2_slam_toolbox' with build type 'ament_cmake'
+[0.317s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jinyoung/zeta_ws/src/zeta2_edu_autonomous/zeta2_slam_toolbox'
+[0.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jinyoung/zeta_ws/build/robot_control': /usr/bin/cmake /home/jinyoung/zeta_ws/flutter_ws/robot_control/windows -DCMAKE_INSTALL_PREFIX=/home/jinyoung/zeta_ws/install/robot_control
+[0.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jinyoung/zeta_ws/build/runner': /usr/bin/cmake /home/jinyoung/zeta_ws/flutter_ws/robot_control/linux -DCMAKE_INSTALL_PREFIX=/home/jinyoung/zeta_ws/install/runner
+[0.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jinyoung/zeta_ws/build/zeta2_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jinyoung/zeta_ws/install/zeta2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/jinyoung/zeta_ws/build/zeta2_cartographer -- -j16 -l16
+[0.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jinyoung/zeta_ws/build/zeta2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jinyoung/zeta_ws/install/zeta2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/jinyoung/zeta_ws/build/zeta2_navigation -- -j16 -l16
+[0.489s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jinyoung/zeta_ws/src/zeta2_edu_autonomous/zeta2_simple_commander'
+[0.489s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.489s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jinyoung/zeta_ws/build/zeta2_slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jinyoung/zeta_ws/install/zeta2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/jinyoung/zeta_ws/build/zeta2_slam_toolbox -- -j16 -l16
+[0.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jinyoung/zeta_ws/build/robot_control' returned '1': /usr/bin/cmake /home/jinyoung/zeta_ws/flutter_ws/robot_control/windows -DCMAKE_INSTALL_PREFIX=/home/jinyoung/zeta_ws/install/robot_control
+[0.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jinyoung/zeta_ws/build/zeta2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jinyoung/zeta_ws/install/zeta2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/jinyoung/zeta_ws/build/zeta2_navigation -- -j16 -l16
+[0.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jinyoung/zeta_ws/build/runner' returned '1': /usr/bin/cmake /home/jinyoung/zeta_ws/flutter_ws/robot_control/linux -DCMAKE_INSTALL_PREFIX=/home/jinyoung/zeta_ws/install/runner
+[0.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jinyoung/zeta_ws/build/zeta2_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jinyoung/zeta_ws/install/zeta2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/jinyoung/zeta_ws/build/zeta2_cartographer -- -j16 -l16
+[0.530s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.530s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.530s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[0.531s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.537s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.537s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.537s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.550s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.550s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jinyoung/zeta_ws/install/local_setup.ps1'
+[0.551s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jinyoung/zeta_ws/install/_local_setup_util_ps1.py'
+[0.552s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jinyoung/zeta_ws/install/setup.ps1'
+[0.553s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jinyoung/zeta_ws/install/local_setup.sh'
+[0.553s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jinyoung/zeta_ws/install/_local_setup_util_sh.py'
+[0.554s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jinyoung/zeta_ws/install/setup.sh'
+[0.554s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jinyoung/zeta_ws/install/local_setup.bash'
+[0.555s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jinyoung/zeta_ws/install/setup.bash'
+[0.555s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jinyoung/zeta_ws/install/local_setup.zsh'
+[0.556s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jinyoung/zeta_ws/install/setup.zsh'

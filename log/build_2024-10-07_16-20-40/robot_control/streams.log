@@ -1,0 +1,16 @@
+[0.019s] Invoking command in '/home/jinyoung/zeta_ws/build/robot_control': /usr/bin/cmake /home/jinyoung/zeta_ws/flutter_ws/robot_control/windows -DCMAKE_INSTALL_PREFIX=/home/jinyoung/zeta_ws/install/robot_control
+[0.191s] [31mCMake Error at flutter/CMakeLists.txt:7 (include):
+[0.192s]   include could not find requested file:
+[0.192s] 
+[0.192s]     /home/jinyoung/zeta_ws/flutter_ws/robot_control/windows/flutter/ephemeral/generated_config.cmake
+[0.192s] 
+[0.193s] [0m
+[0.195s] -- The CXX compiler identification is GNU 11.4.0
+[0.195s] -- Detecting CXX compiler ABI info
+[0.195s] -- Detecting CXX compiler ABI info - done
+[0.196s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.196s] -- Detecting CXX compile features
+[0.197s] -- Detecting CXX compile features - done
+[0.197s] -- Configuring incomplete, errors occurred!
+[0.197s] See also "/home/jinyoung/zeta_ws/build/robot_control/CMakeFiles/CMakeOutput.log".
+[0.200s] Invoked command in '/home/jinyoung/zeta_ws/build/robot_control' returned '1': /usr/bin/cmake /home/jinyoung/zeta_ws/flutter_ws/robot_control/windows -DCMAKE_INSTALL_PREFIX=/home/jinyoung/zeta_ws/install/robot_control

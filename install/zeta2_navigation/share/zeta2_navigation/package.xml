@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>zeta2_navigation</name>
+  <version>0.0.1</version>
+  <description>
+    zeta2 navigation package
+  </description>
+  <license>Apache 2.0</license>
+  <author email="progryu@zetabank.co.kr">lolddohaja</author>
+  <maintainer email="progryu@zetabank.co.kr">lolddohaja</maintainer>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>navigation2</exec_depend>
+  <exec_depend>nav2_bringup</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>teb_local_planner</exec_depend>
+  <exec_depend>nav2_smac_planner</exec_depend>
+  <exec_depend>nav2_theta_star_planner</exec_depend>
+  <exec_depend>nav2_rotation_shim_controller</exec_depend>
+  <exec_depend>nav2_graceful_controller</exec_depend>
+  <exec_depend>turtlebot3_gazebo</exec_depend>
+
+  <build_depend>xacro</build_depend>
+  <build_depend>rclcpp</build_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+  
+</package>

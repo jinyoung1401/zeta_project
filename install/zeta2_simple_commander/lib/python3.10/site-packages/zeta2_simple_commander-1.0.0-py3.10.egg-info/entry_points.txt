@@ -1,0 +1,11 @@
+[console_scripts]
+demo_inspection = zeta2_simple_commander.demo_inspection:main
+demo_picking = zeta2_simple_commander.demo_picking:main
+demo_recoveries = zeta2_simple_commander.demo_recoveries:main
+demo_security = zeta2_simple_commander.demo_security:main
+example_assisted_teleop = zeta2_simple_commander.example_assisted_teleop:main
+example_follow_path = zeta2_simple_commander.example_follow_path:main
+example_nav_through_poses = zeta2_simple_commander.example_nav_through_poses:main
+example_nav_to_pose = zeta2_simple_commander.example_nav_to_pose:main
+example_waypoint_follower = zeta2_simple_commander.example_waypoint_follower:main
+

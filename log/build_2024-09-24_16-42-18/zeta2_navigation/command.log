@@ -1,0 +1,4 @@
+Invoking command in '/home/jinyoung/zeta_ws/build/zeta2_navigation': /usr/bin/cmake --build /home/jinyoung/zeta_ws/build/zeta2_navigation -- -j16 -l16
+Invoked command in '/home/jinyoung/zeta_ws/build/zeta2_navigation' returned '0': /usr/bin/cmake --build /home/jinyoung/zeta_ws/build/zeta2_navigation -- -j16 -l16
+Invoking command in '/home/jinyoung/zeta_ws/build/zeta2_navigation': /usr/bin/cmake --install /home/jinyoung/zeta_ws/build/zeta2_navigation
+Invoked command in '/home/jinyoung/zeta_ws/build/zeta2_navigation' returned '0': /usr/bin/cmake --install /home/jinyoung/zeta_ws/build/zeta2_navigation

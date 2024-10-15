@@ -1,0 +1,4 @@
+source;share/zeta2_navigation/local_setup.bash
+source;share/zeta2_navigation/local_setup.dsv
+source;share/zeta2_navigation/local_setup.sh
+source;share/zeta2_navigation/local_setup.zsh

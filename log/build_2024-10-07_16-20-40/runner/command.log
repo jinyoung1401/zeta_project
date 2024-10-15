@@ -1,0 +1,2 @@
+Invoking command in '/home/jinyoung/zeta_ws/build/runner': /usr/bin/cmake /home/jinyoung/zeta_ws/flutter_ws/robot_control/linux -DCMAKE_INSTALL_PREFIX=/home/jinyoung/zeta_ws/install/runner
+Invoked command in '/home/jinyoung/zeta_ws/build/runner' returned '1': /usr/bin/cmake /home/jinyoung/zeta_ws/flutter_ws/robot_control/linux -DCMAKE_INSTALL_PREFIX=/home/jinyoung/zeta_ws/install/runner

@@ -1,0 +1,2 @@
+Invoking command in '/home/jinyoung/zeta_ws/build/zeta2_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jinyoung/zeta_ws/install/zeta2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/jinyoung/zeta_ws/build/zeta2_cartographer -- -j16 -l16
+Invoked command in '/home/jinyoung/zeta_ws/build/zeta2_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jinyoung/zeta_ws/install/zeta2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/jinyoung/zeta_ws/build/zeta2_cartographer -- -j16 -l16

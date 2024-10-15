@@ -1,0 +1,6 @@
+[31mCMake Error at flutter/CMakeLists.txt:7 (include):
+  include could not find requested file:
+
+    /home/jinyoung/zeta_ws/flutter_ws/robot_control/windows/flutter/ephemeral/generated_config.cmake
+
+[0m

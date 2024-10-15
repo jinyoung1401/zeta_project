@@ -1,0 +1,61 @@
+running egg_info
+creating ../../../build/zeta2_simple_commander/zeta2_simple_commander.egg-info
+writing ../../../build/zeta2_simple_commander/zeta2_simple_commander.egg-info/PKG-INFO
+writing dependency_links to ../../../build/zeta2_simple_commander/zeta2_simple_commander.egg-info/dependency_links.txt
+writing entry points to ../../../build/zeta2_simple_commander/zeta2_simple_commander.egg-info/entry_points.txt
+writing requirements to ../../../build/zeta2_simple_commander/zeta2_simple_commander.egg-info/requires.txt
+writing top-level names to ../../../build/zeta2_simple_commander/zeta2_simple_commander.egg-info/top_level.txt
+writing manifest file '../../../build/zeta2_simple_commander/zeta2_simple_commander.egg-info/SOURCES.txt'
+reading manifest file '../../../build/zeta2_simple_commander/zeta2_simple_commander.egg-info/SOURCES.txt'
+writing manifest file '../../../build/zeta2_simple_commander/zeta2_simple_commander.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jinyoung/zeta_ws/build/zeta2_simple_commander/build
+creating /home/jinyoung/zeta_ws/build/zeta2_simple_commander/build/lib
+creating /home/jinyoung/zeta_ws/build/zeta2_simple_commander/build/lib/zeta2_simple_commander
+copying zeta2_simple_commander/demo_security.py -> /home/jinyoung/zeta_ws/build/zeta2_simple_commander/build/lib/zeta2_simple_commander
+copying zeta2_simple_commander/example_nav_through_poses.py -> /home/jinyoung/zeta_ws/build/zeta2_simple_commander/build/lib/zeta2_simple_commander
+copying zeta2_simple_commander/__init__.py -> /home/jinyoung/zeta_ws/build/zeta2_simple_commander/build/lib/zeta2_simple_commander
+copying zeta2_simple_commander/demo_picking.py -> /home/jinyoung/zeta_ws/build/zeta2_simple_commander/build/lib/zeta2_simple_commander
+copying zeta2_simple_commander/example_waypoint_follower.py -> /home/jinyoung/zeta_ws/build/zeta2_simple_commander/build/lib/zeta2_simple_commander
+copying zeta2_simple_commander/demo_inspection.py -> /home/jinyoung/zeta_ws/build/zeta2_simple_commander/build/lib/zeta2_simple_commander
+copying zeta2_simple_commander/example_nav_to_pose.py -> /home/jinyoung/zeta_ws/build/zeta2_simple_commander/build/lib/zeta2_simple_commander
+copying zeta2_simple_commander/example_follow_path.py -> /home/jinyoung/zeta_ws/build/zeta2_simple_commander/build/lib/zeta2_simple_commander
+running install
+running install_lib
+creating /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages/zeta2_simple_commander
+copying /home/jinyoung/zeta_ws/build/zeta2_simple_commander/build/lib/zeta2_simple_commander/demo_security.py -> /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages/zeta2_simple_commander
+copying /home/jinyoung/zeta_ws/build/zeta2_simple_commander/build/lib/zeta2_simple_commander/example_nav_through_poses.py -> /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages/zeta2_simple_commander
+copying /home/jinyoung/zeta_ws/build/zeta2_simple_commander/build/lib/zeta2_simple_commander/__init__.py -> /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages/zeta2_simple_commander
+copying /home/jinyoung/zeta_ws/build/zeta2_simple_commander/build/lib/zeta2_simple_commander/demo_picking.py -> /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages/zeta2_simple_commander
+copying /home/jinyoung/zeta_ws/build/zeta2_simple_commander/build/lib/zeta2_simple_commander/example_waypoint_follower.py -> /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages/zeta2_simple_commander
+copying /home/jinyoung/zeta_ws/build/zeta2_simple_commander/build/lib/zeta2_simple_commander/demo_inspection.py -> /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages/zeta2_simple_commander
+copying /home/jinyoung/zeta_ws/build/zeta2_simple_commander/build/lib/zeta2_simple_commander/example_nav_to_pose.py -> /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages/zeta2_simple_commander
+copying /home/jinyoung/zeta_ws/build/zeta2_simple_commander/build/lib/zeta2_simple_commander/example_follow_path.py -> /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages/zeta2_simple_commander
+byte-compiling /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages/zeta2_simple_commander/demo_security.py to demo_security.cpython-310.pyc
+byte-compiling /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages/zeta2_simple_commander/example_nav_through_poses.py to example_nav_through_poses.cpython-310.pyc
+byte-compiling /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages/zeta2_simple_commander/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages/zeta2_simple_commander/demo_picking.py to demo_picking.cpython-310.pyc
+byte-compiling /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages/zeta2_simple_commander/example_waypoint_follower.py to example_waypoint_follower.cpython-310.pyc
+byte-compiling /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages/zeta2_simple_commander/demo_inspection.py to demo_inspection.cpython-310.pyc
+byte-compiling /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages/zeta2_simple_commander/example_nav_to_pose.py to example_nav_to_pose.cpython-310.pyc
+byte-compiling /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages/zeta2_simple_commander/example_follow_path.py to example_follow_path.cpython-310.pyc
+running install_data
+creating /home/jinyoung/zeta_ws/install/zeta2_simple_commander/share/ament_index
+creating /home/jinyoung/zeta_ws/install/zeta2_simple_commander/share/ament_index/resource_index
+creating /home/jinyoung/zeta_ws/install/zeta2_simple_commander/share/ament_index/resource_index/packages
+copying resource/zeta2_simple_commander -> /home/jinyoung/zeta_ws/install/zeta2_simple_commander/share/ament_index/resource_index/packages
+copying package.xml -> /home/jinyoung/zeta_ws/install/zeta2_simple_commander/share/zeta2_simple_commander
+running install_egg_info
+Copying ../../../build/zeta2_simple_commander/zeta2_simple_commander.egg-info to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages/zeta2_simple_commander-1.0.0-py3.10.egg-info
+running install_scripts
+Installing demo_inspection script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+Installing demo_picking script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+Installing demo_recoveries script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+Installing demo_security script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+Installing example_assisted_teleop script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+Installing example_follow_path script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+Installing example_nav_through_poses script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+Installing example_nav_to_pose script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+Installing example_waypoint_follower script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+writing list of installed files to '/home/jinyoung/zeta_ws/build/zeta2_simple_commander/install.log'

@@ -1,0 +1,24 @@
+[0.007s] Invoking command in '/home/jinyoung/zeta_ws/build/zeta2_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jinyoung/zeta_ws/build/zeta2_navigation -- -j16 -l16
+[0.023s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.101s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.107s] [31mCMake Error at CMakeLists.txt:21 (find_package):
+[0.107s]   By not providing "Findteb_local_planner.cmake" in CMAKE_MODULE_PATH this
+[0.107s]   project has asked CMake to find a package configuration file provided by
+[0.107s]   "teb_local_planner", but CMake did not find one.
+[0.107s] 
+[0.107s]   Could not find a package configuration file provided by "teb_local_planner"
+[0.107s]   with any of the following names:
+[0.107s] 
+[0.107s]     teb_local_plannerConfig.cmake
+[0.107s]     teb_local_planner-config.cmake
+[0.108s] 
+[0.108s]   Add the installation prefix of "teb_local_planner" to CMAKE_PREFIX_PATH or
+[0.108s]   set "teb_local_planner_DIR" to a directory containing one of the above
+[0.108s]   files.  If "teb_local_planner" provides a separate development package or
+[0.108s]   SDK, be sure it has been installed.
+[0.108s] 
+[0.108s] [0m
+[0.108s] -- Configuring incomplete, errors occurred!
+[0.108s] See also "/home/jinyoung/zeta_ws/build/zeta2_navigation/CMakeFiles/CMakeOutput.log".
+[0.108s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.110s] Invoked command in '/home/jinyoung/zeta_ws/build/zeta2_navigation' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jinyoung/zeta_ws/build/zeta2_navigation -- -j16 -l16

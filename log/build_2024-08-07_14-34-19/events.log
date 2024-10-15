@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000204] (-) JobUnselected: {'identifier': 'zeta2_cartographer'}
+[0.000236] (-) JobUnselected: {'identifier': 'zeta2_navigation'}
+[0.000259] (-) JobUnselected: {'identifier': 'zeta2_simple_commander'}
+[0.000279] (-) JobUnselected: {'identifier': 'zeta2_slam_toolbox'}
+[0.000299] (-) EventReactorShutdown: {}

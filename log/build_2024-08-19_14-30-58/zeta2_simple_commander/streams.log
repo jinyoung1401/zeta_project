@@ -1,0 +1,29 @@
+[0.385s] Invoking command in '/home/jinyoung/zeta_ws/src/zeta2_edu_autonomous/zeta2_simple_commander': PYTHONPATH=/home/jinyoung/zeta_ws/build/zeta2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/zeta2_simple_commander build --build-base /home/jinyoung/zeta_ws/build/zeta2_simple_commander/build install --record /home/jinyoung/zeta_ws/build/zeta2_simple_commander/install.log --single-version-externally-managed install_data
+[0.509s] running egg_info
+[0.509s] writing ../../../build/zeta2_simple_commander/zeta2_simple_commander.egg-info/PKG-INFO
+[0.509s] writing dependency_links to ../../../build/zeta2_simple_commander/zeta2_simple_commander.egg-info/dependency_links.txt
+[0.509s] writing entry points to ../../../build/zeta2_simple_commander/zeta2_simple_commander.egg-info/entry_points.txt
+[0.509s] writing requirements to ../../../build/zeta2_simple_commander/zeta2_simple_commander.egg-info/requires.txt
+[0.509s] writing top-level names to ../../../build/zeta2_simple_commander/zeta2_simple_commander.egg-info/top_level.txt
+[0.510s] reading manifest file '../../../build/zeta2_simple_commander/zeta2_simple_commander.egg-info/SOURCES.txt'
+[0.511s] writing manifest file '../../../build/zeta2_simple_commander/zeta2_simple_commander.egg-info/SOURCES.txt'
+[0.511s] running build
+[0.511s] running build_py
+[0.511s] running install
+[0.511s] running install_lib
+[0.512s] running install_data
+[0.512s] running install_egg_info
+[0.513s] removing '/home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages/zeta2_simple_commander-1.0.0-py3.10.egg-info' (and everything under it)
+[0.513s] Copying ../../../build/zeta2_simple_commander/zeta2_simple_commander.egg-info to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages/zeta2_simple_commander-1.0.0-py3.10.egg-info
+[0.513s] running install_scripts
+[0.525s] Installing demo_inspection script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+[0.525s] Installing demo_picking script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+[0.525s] Installing demo_recoveries script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+[0.525s] Installing demo_security script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+[0.525s] Installing example_assisted_teleop script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+[0.525s] Installing example_follow_path script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+[0.525s] Installing example_nav_through_poses script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+[0.525s] Installing example_nav_to_pose script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+[0.525s] Installing example_waypoint_follower script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+[0.525s] writing list of installed files to '/home/jinyoung/zeta_ws/build/zeta2_simple_commander/install.log'
+[0.538s] Invoked command in '/home/jinyoung/zeta_ws/src/zeta2_edu_autonomous/zeta2_simple_commander' returned '0': PYTHONPATH=/home/jinyoung/zeta_ws/build/zeta2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/zeta2_simple_commander build --build-base /home/jinyoung/zeta_ws/build/zeta2_simple_commander/build install --record /home/jinyoung/zeta_ws/build/zeta2_simple_commander/install.log --single-version-externally-managed install_data

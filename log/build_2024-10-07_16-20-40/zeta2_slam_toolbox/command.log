@@ -1,0 +1,1 @@
+Invoking command in '/home/jinyoung/zeta_ws/build/zeta2_slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jinyoung/zeta_ws/install/zeta2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/jinyoung/zeta_ws/build/zeta2_slam_toolbox -- -j16 -l16

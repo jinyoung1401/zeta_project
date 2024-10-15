@@ -1,0 +1,26 @@
+[0.122s] Invoking command in '/home/jinyoung/zeta_ws/build/zeta2_slam_toolbox': /usr/bin/cmake --build /home/jinyoung/zeta_ws/build/zeta2_slam_toolbox -- -j16 -l16
+[0.150s] Invoked command in '/home/jinyoung/zeta_ws/build/zeta2_slam_toolbox' returned '0': /usr/bin/cmake --build /home/jinyoung/zeta_ws/build/zeta2_slam_toolbox -- -j16 -l16
+[0.173s] Invoking command in '/home/jinyoung/zeta_ws/build/zeta2_slam_toolbox': /usr/bin/cmake --install /home/jinyoung/zeta_ws/build/zeta2_slam_toolbox
+[0.178s] -- Install configuration: ""
+[0.178s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_slam_toolbox/share/zeta2_slam_toolbox/config
+[0.178s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_slam_toolbox/share/zeta2_slam_toolbox/config/mapper_params.yaml
+[0.179s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_slam_toolbox/share/zeta2_slam_toolbox/launch
+[0.179s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_slam_toolbox/share/zeta2_slam_toolbox/launch/zeta2_slam_toolbox.launch.py
+[0.180s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_slam_toolbox/share/zeta2_slam_toolbox/rviz
+[0.180s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_slam_toolbox/share/zeta2_slam_toolbox/rviz/zeta2_slam_toolbox.rviz
+[0.180s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_slam_toolbox/share/ament_index/resource_index/package_run_dependencies/zeta2_slam_toolbox
+[0.180s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_slam_toolbox/share/ament_index/resource_index/parent_prefix_path/zeta2_slam_toolbox
+[0.180s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_slam_toolbox/share/zeta2_slam_toolbox/environment/ament_prefix_path.sh
+[0.180s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_slam_toolbox/share/zeta2_slam_toolbox/environment/ament_prefix_path.dsv
+[0.180s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_slam_toolbox/share/zeta2_slam_toolbox/environment/path.sh
+[0.180s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_slam_toolbox/share/zeta2_slam_toolbox/environment/path.dsv
+[0.180s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_slam_toolbox/share/zeta2_slam_toolbox/local_setup.bash
+[0.180s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_slam_toolbox/share/zeta2_slam_toolbox/local_setup.sh
+[0.180s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_slam_toolbox/share/zeta2_slam_toolbox/local_setup.zsh
+[0.181s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_slam_toolbox/share/zeta2_slam_toolbox/local_setup.dsv
+[0.181s] -- Installing: /home/jinyoung/zeta_ws/install/zeta2_slam_toolbox/share/zeta2_slam_toolbox/package.dsv
+[0.181s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_slam_toolbox/share/ament_index/resource_index/packages/zeta2_slam_toolbox
+[0.181s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_slam_toolbox/share/zeta2_slam_toolbox/cmake/zeta2_slam_toolboxConfig.cmake
+[0.181s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_slam_toolbox/share/zeta2_slam_toolbox/cmake/zeta2_slam_toolboxConfig-version.cmake
+[0.181s] -- Up-to-date: /home/jinyoung/zeta_ws/install/zeta2_slam_toolbox/share/zeta2_slam_toolbox/package.xml
+[0.187s] Invoked command in '/home/jinyoung/zeta_ws/build/zeta2_slam_toolbox' returned '0': /usr/bin/cmake --install /home/jinyoung/zeta_ws/build/zeta2_slam_toolbox

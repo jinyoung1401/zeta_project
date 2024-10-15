@@ -1,0 +1,2 @@
+Invoking command in '/home/jinyoung/zeta_ws/build/zeta2_cartographer': /usr/bin/cmake --build /home/jinyoung/zeta_ws/build/zeta2_cartographer -- -j16 -l16
+Invoked command in '/home/jinyoung/zeta_ws/build/zeta2_cartographer' returned '0': /usr/bin/cmake --build /home/jinyoung/zeta_ws/build/zeta2_cartographer -- -j16 -l16

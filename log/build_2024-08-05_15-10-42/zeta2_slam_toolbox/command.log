@@ -1,0 +1,6 @@
+Invoking command in '/home/jinyoung/zeta_ws/build/zeta2_slam_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jinyoung/zeta_ws/src/zeta2_edu_autonomous/zeta2_slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/jinyoung/zeta_ws/install/zeta2_slam_toolbox
+Invoked command in '/home/jinyoung/zeta_ws/build/zeta2_slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jinyoung/zeta_ws/src/zeta2_edu_autonomous/zeta2_slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/jinyoung/zeta_ws/install/zeta2_slam_toolbox
+Invoking command in '/home/jinyoung/zeta_ws/build/zeta2_slam_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jinyoung/zeta_ws/build/zeta2_slam_toolbox -- -j16 -l16
+Invoked command in '/home/jinyoung/zeta_ws/build/zeta2_slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jinyoung/zeta_ws/build/zeta2_slam_toolbox -- -j16 -l16
+Invoking command in '/home/jinyoung/zeta_ws/build/zeta2_slam_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jinyoung/zeta_ws/build/zeta2_slam_toolbox
+Invoked command in '/home/jinyoung/zeta_ws/build/zeta2_slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jinyoung/zeta_ws/build/zeta2_slam_toolbox

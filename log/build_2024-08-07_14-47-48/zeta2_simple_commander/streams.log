@@ -1,0 +1,32 @@
+[0.656s] Invoking command in '/home/jinyoung/zeta_ws/src/zeta2_edu_autonomous/zeta2_simple_commander': PYTHONPATH=/home/jinyoung/zeta_ws/build/zeta2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/zeta2_simple_commander build --build-base /home/jinyoung/zeta_ws/build/zeta2_simple_commander/build install --record /home/jinyoung/zeta_ws/build/zeta2_simple_commander/install.log --single-version-externally-managed install_data
+[0.892s] running egg_info
+[0.893s] writing ../../../build/zeta2_simple_commander/zeta2_simple_commander.egg-info/PKG-INFO
+[0.893s] writing dependency_links to ../../../build/zeta2_simple_commander/zeta2_simple_commander.egg-info/dependency_links.txt
+[0.893s] writing entry points to ../../../build/zeta2_simple_commander/zeta2_simple_commander.egg-info/entry_points.txt
+[0.893s] writing requirements to ../../../build/zeta2_simple_commander/zeta2_simple_commander.egg-info/requires.txt
+[0.893s] writing top-level names to ../../../build/zeta2_simple_commander/zeta2_simple_commander.egg-info/top_level.txt
+[0.895s] reading manifest file '../../../build/zeta2_simple_commander/zeta2_simple_commander.egg-info/SOURCES.txt'
+[0.896s] writing manifest file '../../../build/zeta2_simple_commander/zeta2_simple_commander.egg-info/SOURCES.txt'
+[0.897s] running build
+[0.897s] running build_py
+[0.897s] copying zeta2_simple_commander/example_nav_to_pose.py -> /home/jinyoung/zeta_ws/build/zeta2_simple_commander/build/lib/zeta2_simple_commander
+[0.897s] running install
+[0.898s] running install_lib
+[0.898s] copying /home/jinyoung/zeta_ws/build/zeta2_simple_commander/build/lib/zeta2_simple_commander/example_nav_to_pose.py -> /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages/zeta2_simple_commander
+[0.899s] byte-compiling /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages/zeta2_simple_commander/example_nav_to_pose.py to example_nav_to_pose.cpython-310.pyc
+[0.900s] running install_data
+[0.900s] running install_egg_info
+[0.902s] removing '/home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages/zeta2_simple_commander-1.0.0-py3.10.egg-info' (and everything under it)
+[0.902s] Copying ../../../build/zeta2_simple_commander/zeta2_simple_commander.egg-info to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages/zeta2_simple_commander-1.0.0-py3.10.egg-info
+[0.902s] running install_scripts
+[0.925s] Installing demo_inspection script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+[0.925s] Installing demo_picking script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+[0.925s] Installing demo_recoveries script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+[0.925s] Installing demo_security script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+[0.926s] Installing example_assisted_teleop script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+[0.926s] Installing example_follow_path script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+[0.926s] Installing example_nav_through_poses script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+[0.926s] Installing example_nav_to_pose script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+[0.926s] Installing example_waypoint_follower script to /home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/zeta2_simple_commander
+[0.926s] writing list of installed files to '/home/jinyoung/zeta_ws/build/zeta2_simple_commander/install.log'
+[0.948s] Invoked command in '/home/jinyoung/zeta_ws/src/zeta2_edu_autonomous/zeta2_simple_commander' returned '0': PYTHONPATH=/home/jinyoung/zeta_ws/build/zeta2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jinyoung/zeta_ws/install/zeta2_simple_commander/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/zeta2_simple_commander build --build-base /home/jinyoung/zeta_ws/build/zeta2_simple_commander/build install --record /home/jinyoung/zeta_ws/build/zeta2_simple_commander/install.log --single-version-externally-managed install_data

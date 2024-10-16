@@ -400,6 +400,9 @@ nav2_rotation_shim_controller_DIR:PATH=/opt/ros/humble/share/nav2_rotation_shim_
 //The directory containing a CMake configuration file for nav2_smac_planner.
 nav2_smac_planner_DIR:PATH=/opt/ros/humble/share/nav2_smac_planner/cmake
 
+//The directory containing a CMake configuration file for nav2_straightline_planner.
+nav2_straightline_planner_DIR:PATH=nav2_straightline_planner_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for nav2_theta_star_planner.
 nav2_theta_star_planner_DIR:PATH=/opt/ros/humble/share/nav2_theta_star_planner/cmake
 

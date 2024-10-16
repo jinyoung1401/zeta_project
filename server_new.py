@@ -25,13 +25,13 @@ route_messages = {
 
 # 라우트 매핑의 메시지를 키로 하는 사전 추가
 route_map = {
-    'run_route_1': 'ready.py',
-    'run_route_2': 'go_A.py',
-    'run_route_3': 'go_B.py',
-    'run_route_4': 'go_C.py',
-    'run_route_5': 'return_A.py',
-    'run_route_6': 'return_B.py',
-    'run_route_7': 'return_C.py',
+    'go_to_store': 'ready.py',
+    'go_to_hyeondong': 'go_A.py',
+    'go_to_nehemiah': 'go_B.py',
+    'go_to_oseok': 'go_C.py',
+    'return_from_hyeondong': 'return_A.py',
+    'return_from_nehemiah': 'return_B.py',
+    'return_from_oseok': 'return_C.py',
 }
 
 async def notify_progress(sid, script_name, waypoint_number):
@@ -54,7 +54,7 @@ async def disconnect(sid):
 # 클라이언트 메시지 처리
 @sio.event
 async def message(sid, data):
-    if data.startswith('run_route_'):
+    if data.startswith('go_to_') or data.startswith('return_from_'):
         script_name = route_map.get(data)
         if script_name:
             try:
@@ -78,5 +78,6 @@ async def message(sid, data):
 
 # 웹 서버 시작
 if __name__ == "__main__":
-    logging.info("Socket.IO 서버 시작: http://192.168.1.121:8765")
-    web.run_app(app, host='192.168.1.121', port=8765)
+    ipAddress = '127.0.0.1'
+    logging.info(f"Socket.IO 서버 시작: http://{ipAddress}:8765")
+    web.run_app(app, host=ipAddress, port=8765)
